@@ -1,0 +1,8 @@
+An unexpected error occurred:
+The server experienced an internal error :: ACMEv1 is deprecated and you can no longer get certificates from this endpoint. Please use the ACMEv2 endpoint, you may need to update your ACME client software to do so. Visit https://community.letsencrypt.org/t/end-of-life-plan-for-acmev1/88430/27 for more information.
+Please see the logfiles in /var/log/letsencrypt for more details.
+
+
+==> apt-get install certbot
+==> apt-get install --only-upgrade certbot
+==> ispconfig_update.sh
